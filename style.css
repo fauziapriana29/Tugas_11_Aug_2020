@@ -1,0 +1,63 @@
+body {
+    background-image: url(./bgblack.png);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.judul h1 {
+    color: limegreen;
+    font-size: 60px;
+    text-align: center;
+    transition: 1s;
+}
+.judul:hover h1 {
+    transform: scale(1.3) rotateY(360deg);
+}
+table {
+    border: 4px solid white;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    margin-top : 100px;
+    transition: 1s;
+}
+.table:hover {
+    transform: scale(1.3);
+}
+.table .isi {
+    transition: 0.5s;
+}
+.table .isi:hover {
+    transform: scale(1.3);
+    background-color: rgb(253, 143, 253);
+    color: rgb(1, 82, 82); 
+}
+table tr td {
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: bold;
+}
+.header {
+    background-color: indigo;
+    color: white;
+}
+.header th {
+    padding: 10px;
+}
+.day td {
+    padding: 2px 15px;
+    background-color: tomato;
+    font-weight: bold;
+}
+.time {
+    background-color: lawngreen;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+.break {
+    font-weight: bold;
+    background-color: rgb(236, 53, 53);
+    color: white;
+}
